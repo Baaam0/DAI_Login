@@ -66,7 +66,6 @@ export default function Home() {
     <div className="flex flex-col h-screen justify-center items-center">
       <h3 className="text-3xl text-sky-400 font-bold underline absolute top-0 p-4">Welcome to the app</h3>
       <div className="grid grid-cols-3 gap-4">
-
         <form onSubmit={HandleSubmit}>
           <h2>Register</h2>
           <div className="border-2 p-2 m-2">
@@ -93,9 +92,9 @@ export default function Home() {
                           hover:text-white 
                           border border-blue-700 
                           hover:bg-blue-800
-                          focus:ring-4
-                          focus:outline-none
-                          focus:ring-blue-300
+                          focus: ring-4
+                          focus: outline-none
+                          focus: ring=blue-300
                           font-medium
                           rounded-lg
                           text-sm
@@ -114,10 +113,10 @@ export default function Home() {
                         className=" text-red-700 
                         hover:text-white 
                         border border-red-700 
-                        hover:bg-red-800
-                        focus:ring-4
-                        focus:outline-none
-                        focus:ring-red-300
+                        hover:red-800
+                        focus: ring-4
+                        focus: outline-none
+                        focus: ring=red-300
                         font-medium
                         rounded-lg
                         text-sm
@@ -136,34 +135,32 @@ export default function Home() {
           </div>
         </form>
 
-        <form onSubmit={HandleSubmit}>
+        <form>
           <h2>Login</h2>
-          <div className="border-2 p-2 m-2">
-            <div className="pb-4">
+          <div>
+            <div>
               <label>Email</label>
               <input
               placeholder="Email.."
               onChange={(event)=>{
                 setLoginEmail(event.target.value)
               }}
-              className="flow-root m-2 p-2"
               />
               <input
               placeholder="Password.."
               onChange={(event)=>{
                 setLoginPassword(event.target.value)
               }}
-              className="flow-root m-2 p-2"
               />
             </div>
               <button onClick={login}
                       className=" text-red-700 
                       hover:text-white 
                       border border-red-700 
-                      hover:bg-red-800
-                      focus:ring-4
-                      focus:outline-none
-                      focus:ring-red-300
+                      hover:red-800
+                      focus: ring-4
+                      focus: outline-none
+                      focus: ring=red-300
                       font-medium
                       rounded-lg
                       text-sm
@@ -180,35 +177,6 @@ export default function Home() {
               >Log in User</button>
           </div>
         </form>
-        <div className="relative">
-          <h2>User Logged In</h2>
-          <div className="flow-root m-2 p-2">
-            {user?.email}
-          </div>
-          <button onClick={logout}
-                      className=" text-red-700 
-                      hover:text-white 
-                      border border-red-700 
-                      hover:bg-red-800
-                      focus:ring-4
-                      focus:outline-none
-                      focus:ring-red-300
-                      font-medium
-                      rounded-lg
-                      text-sm
-                      px-5
-                      py-2.5
-                      text-center
-                      mr-2
-                      dark:border-red-500
-                      dark:text-red-500
-                      dark:hover:text-white
-                      dark:hover:bg-red-600
-                      dark:focus:ring-red-800
-                      "
-              >Logout</button>
-
-        </div>
       </div>
     </div>
     

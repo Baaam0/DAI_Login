@@ -93,9 +93,9 @@ export default function Home() {
                           hover:text-white 
                           border border-blue-700 
                           hover:bg-blue-800
-                          focus:ring-4
-                          focus:outline-none
-                          focus:ring-blue-300
+                          focus: ring-4
+                          focus: outline-none
+                          focus: ring=blue-300
                           font-medium
                           rounded-lg
                           text-sm
@@ -114,10 +114,10 @@ export default function Home() {
                         className=" text-red-700 
                         hover:text-white 
                         border border-red-700 
-                        hover:bg-red-800
-                        focus:ring-4
-                        focus:outline-none
-                        focus:ring-red-300
+                        hover:red-800
+                        focus: ring-4
+                        focus: outline-none
+                        focus: ring=red-300
                         font-medium
                         rounded-lg
                         text-sm
@@ -160,10 +160,10 @@ export default function Home() {
                       className=" text-red-700 
                       hover:text-white 
                       border border-red-700 
-                      hover:bg-red-800
-                      focus:ring-4
-                      focus:outline-none
-                      focus:ring-red-300
+                      hover:red-800
+                      focus: ring-4
+                      focus: outline-none
+                      focus: ring=red-300
                       font-medium
                       rounded-lg
                       text-sm
@@ -189,10 +189,10 @@ export default function Home() {
                       className=" text-red-700 
                       hover:text-white 
                       border border-red-700 
-                      hover:bg-red-800
-                      focus:ring-4
-                      focus:outline-none
-                      focus:ring-red-300
+                      hover:red-800
+                      focus: ring-4
+                      focus: outline-none
+                      focus: ring=red-300
                       font-medium
                       rounded-lg
                       text-sm

@@ -71,7 +71,7 @@ export default function Home() {
           <h2>Register</h2>
           <div className="border-2 p-2 m-2">
             <div className="pb-4">
-              <label>Email</label>\
+              <label>Email</label>
               <input
                 placeholder="Email.."
                 onChange={(event) => {
@@ -79,7 +79,7 @@ export default function Home() {
                 }}
                 className="flow-root m-2 p-2"
               />
-              <label>Password</label>\
+              <label>Password</label>
               <input
                 placeholder="password.."
                 onChange={(event) => {
